@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="fonts">
+      <UniqueIdentifier>{a1b2c3d4-e5f6-7890-abcd-ef1234567890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{b2c3d4e5-f6a7-8901-bcde-f12345678901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{0587d7a3-f2ce-4d56-b84f-a0005d3bfce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{08e36723-ce4f-4cff-9662-c40801cf1acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\pages">
+      <UniqueIdentifier>{f63a2c6b-6f95-4f6a-9d10-c0e5cd8f16f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ext\fonts\fonts.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\custom_settings.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\custom_imgui.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\flowstrip.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\include.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\menu.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\pages\pageaimassist.h">
+      <Filter>framework\pages</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\pages\pageitems.h">
+      <Filter>framework\pages</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\pages\pagedefault.h">
+      <Filter>framework\pages</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework\pages\pagelegitbot.h">
+      <Filter>framework\pages</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ext\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\framework\custom_imgui.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\framework\flowstrip.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\framework\menu.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\framework\pages\pageaimassist.cpp">
+      <Filter>framework\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\framework\pages\pageitems.cpp">
+      <Filter>framework\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\framework\pages\pagedefault.cpp">
+      <Filter>framework\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\framework\pages\pagelegitbot.cpp">
+      <Filter>framework\pages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\framework\var.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
